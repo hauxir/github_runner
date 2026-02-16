@@ -27,7 +27,7 @@ jobs:
         context: .
         push: ${{ github.ref == 'refs/heads/master' }}
         build-args: |
-          FROM=ghcr.io/hauxir/brock_samson:latest
+          FROM=ghcr.io/hauxir/brock_samson:8adc86
         tags: |
           ghcr.io/${{ github.repository }}:latest
           ghcr.io/${{ github.repository }}:${{ steps.sha.outputs.short }}
