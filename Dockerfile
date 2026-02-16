@@ -1,4 +1,4 @@
-ARG FROM=brock_samson
+ARG FROM=ghcr.io/hauxir/brock_samson:60b7a3
 FROM ${FROM}
 
 USER root
