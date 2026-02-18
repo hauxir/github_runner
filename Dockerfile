@@ -1,4 +1,4 @@
-FROM ghcr.io/hauxir/brock_samson:13fc75
+FROM ghcr.io/hauxir/brock_samson:2150b8
 
 USER root
 
